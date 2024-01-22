@@ -66,9 +66,30 @@
                 </div>
             </div>
         </section>
-        <section class="container mx-auto">
-            <div>
-                
+        <section class="container mx-auto lg:relative">
+            <div class="p-4">
+                <div class="carousel w-full">
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <img src="./Images/1.png"
+                            class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide2" class="btn btn-circle  bg-black text-white text-3xl  border-none outline-none">❮</a>
+                            <a href="#slide2" class="btn btn-circle bg-black text-white text-3xl  border-none outline-none">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <img src="./Images/2.png"
+                            class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide1" class="btn btn-circle  bg-black text-white text-3xl  border-none outline-none">❮</a>
+                            <a href="#slide1" class="btn btn-circle  bg-black text-white text-3xl border-none outline-none">❯</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-black text-white max-w-3xl rounded-lg p-12 space-y-6 lg:absolute lg:bottom-24 right-20">
+                <h2 class="text-3xl font-extrabold">Meet all the heroes from the field</h2>
+                <p class="text-[#FFFFFF99] text-xl text-justify">You meet all of our player. They are our hero. We achieve everything for their dedication and hard working.</p>
             </div>
         </section>
     </header>
